@@ -1,7 +1,7 @@
 public class SecondIteration{
     //argument to be passed in
     private static int Arg1;
-    //use of a try catch to catch if the code is recieving a valid integer.
+    //use of a try catch to catch if the code is receiving a valid integer.
     public static void main(String args[]) throws Exception {
 		if (args.length > 0) {
 			try{
@@ -14,7 +14,7 @@ public class SecondIteration{
 				System.exit(1);
 			}
 	}
-		else if (args.length == 0) {
+		else  {
 			//ask the user to fix their mistake, close the program.
 			System.err.println("Please provide a suitable integer argument");
 			System.exit(0);      
@@ -34,7 +34,7 @@ public class SecondIteration{
         }
         
         System.out.println("Hexadecimal representation is : " + hex);
-       
+        
 
 }
 }
