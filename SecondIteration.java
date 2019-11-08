@@ -1,4 +1,4 @@
-public class Dec2Hex{
+public class SecondIteration{
     //argument to be passed in
     private static int Arg1;
     //use of a try catch to catch if the code is recieving a valid integer.
