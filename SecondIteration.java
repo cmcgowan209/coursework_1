@@ -2,7 +2,7 @@ public class SecondIteration{
     //argument to be passed in
     private static int Arg1;
     //use of a try catch to catch if the code is recieving a valid integer.
-    public static String main(String args[]) throws Exception {
+    public static void main(String args[]) throws Exception {
 		if (args.length > 0) {
 			try{
 				//Find out if the number is an integer by parsing it, if not, throw an error
@@ -34,6 +34,7 @@ public class SecondIteration{
         }
         
         System.out.println("Hexadecimal representation is : " + hex);
-        return hex;   
-    }
+       
+
+}
 }
